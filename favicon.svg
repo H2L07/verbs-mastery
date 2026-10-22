@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="faviconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo redondeado estilo App -->
+  <rect width="64" height="64" rx="16" fill="url(#faviconGrad)" />
+  <!-- Carta trasera (Inclinada) -->
+  <rect x="18" y="14" width="22" height="32" rx="4" fill="#ffffff" opacity="0.3" transform="rotate(-12 29 30)" />
+  <!-- Carta delantera (Activa) con ícono de memoria/check -->
+  <rect x="24" y="18" width="22" height="32" rx="4" fill="#ffffff" />
+  <path d="M30 32l3 3 7-7" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
